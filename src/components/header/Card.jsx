@@ -37,6 +37,13 @@ function Card() {
             />
           );
         })}
+
+        <div className="checkOut">
+          <button>
+            <span>Priced To Checkout</span>
+            <label htmlFor="">$ 240</label>
+          </button>
+        </div>
       </div>
     </>
   );

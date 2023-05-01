@@ -5,7 +5,7 @@ export const slide = [
   { image: "../images/slide/slide2.png" },
   { image: "../images/slide/slide3.png" },
   { image: "../images/slide/slide4.png" },
-]
+];
 export const order = [
   {
     id: 1,
@@ -27,7 +27,7 @@ export const order = [
     title: "And Deliver",
     desc: "There are many variations of passages of Lorem Ipsum available",
   },
-]
+];
 export const category = [
   {
     id: 1,
@@ -89,7 +89,7 @@ export const category = [
     title: "Household",
     cover: "../images/category/ca12.jpg",
   },
-]
+];
 export const product = [
   {
     id: 1,
@@ -97,7 +97,7 @@ export const product = [
     price: 3.0,
     qty: 1,
     category: "face & skin care",
-    cover: "../images/product/product1.jpg",
+    cover: "../../assets/images/product1.jpg",
     desc: "The term cleanser refers to a product that cleans or removes dirt or other substances. A cleanser could be a detergent, and there are many types of cleansers that are produced with a specific objective or focus.",
   },
   {
@@ -307,4 +307,4 @@ export const product = [
     cover: "../images/product/product24.png",
     desc: "The term cleanser refers to a product that cleans or removes dirt or other substances. A cleanser could be a detergent, and there are many types of cleansers that are produced with a specific objective or focus.",
   },
-]
+];
