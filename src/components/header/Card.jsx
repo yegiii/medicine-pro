@@ -24,15 +24,18 @@ function Card() {
             <AiOutlineClose className="icon" />
           </button>
         </div>
-        {product.map((item) => {
-          <CartItems
-            id={item.id}
-            cover={item.cover}
-            name={item.name}
-            price={item.price}
-            quantity={item.quantity}
-            totalPrice={item.totalPrice}
-          />;
+        {product.slice(0, 2).map((item) => {
+          return (
+            <CartItems
+              key={item.id}
+              id={item.id}
+              cover={item.cover}
+              name={item.name}
+              price={item.price}
+              quantity={item.quantity}
+              totalPrice={item.totalPrice}
+            />
+          );
         })}
       </div>
     </>
