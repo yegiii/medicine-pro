@@ -66,7 +66,7 @@ function User() {
             )}
           </>
         ) : (
-          "login"
+          <button>My Account</button>
         )}
       </div>
     </>
