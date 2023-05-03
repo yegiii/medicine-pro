@@ -1,10 +1,10 @@
 export const slide = [
   {
-    image: "../images/slide/slide1.png",
+    image: require("../../assets/images/call-center.jpg"),
   },
-  { image: "../images/slide/slide2.png" },
-  { image: "../images/slide/slide3.png" },
-  { image: "../images/slide/slide4.png" },
+  { image: require("../../assets/images/handling-order.jpg") },
+  { image: require("../../assets/images/purchasing.jpg") },
+  { image: require("../../assets/images/self-image.jpg") },
 ];
 export const order = [
   {

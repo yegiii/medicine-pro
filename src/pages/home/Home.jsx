@@ -1,9 +1,10 @@
 import React from "react";
+import Slider from "../../components/hero/Slider";
 
 function Home() {
   return (
     <>
-      <h2>Home</h2>
+      <Slider></Slider>
     </>
   );
 }
