@@ -17,6 +17,13 @@ function Category() {
 
     responsive: [
       {
+        breakpoint: 1250,
+        settings: {
+          slidesToShow: 5,
+          slidesToScroll: 2,
+        },
+      },
+      {
         breakpoint: 800,
         settings: {
           slidesToShow: 4,
@@ -32,7 +39,7 @@ function Category() {
         <div className="container">
           <Slider {...settings}>
             {category.map((item) => (
-              <div className="boxes" key={item.id}>
+              <div className="boxs" key={item.id}>
                 <div className="box boxItems">
                   <img src={item.cover} alt="" />
                   <p>{item.title}</p>
