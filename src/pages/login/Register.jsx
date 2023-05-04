@@ -2,6 +2,7 @@ import React from "react";
 
 import "./login.css";
 import back from "../../assets/images/my-account.jpg";
+import { Link } from "react-router-dom";
 
 function Register() {
   return (
@@ -25,6 +26,7 @@ function Register() {
             <span>Confirm Password *</span>
             <input type="text" required />
             <button className="button">Register</button>
+            <Link to="/login">Signin</Link>
           </form>
         </div>
       </section>
