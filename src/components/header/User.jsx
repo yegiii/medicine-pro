@@ -4,6 +4,7 @@ import { BsBagCheck } from "react-icons/bs";
 import { AiOutlineHeart } from "react-icons/ai";
 import { GrHelp } from "react-icons/gr";
 import { BiLogOut } from "react-icons/bi";
+import { Link } from "react-router-dom";
 
 function User() {
   const user = true;
@@ -31,21 +32,26 @@ function User() {
             {profileOpen && (
               <div className="openProfile boxItems" onClick={close}>
                 <div className="image">
-                  <div className="img">
-                    <img
-                      src={require("../../assets/images/profile.png")}
-                      alt="user"
-                    />
-                    <div className="text">
-                      <h4>Eden Smith</h4>
-                      <label htmlFor="">Los Angeles, CA</label>
+                  <Link to="/account">
+                    <div className="img">
+                      <img
+                        src={require("../../assets/images/profile.png")}
+                        alt="user"
+                      />
                     </div>
+                  </Link>
+
+                  <div className="text">
+                    <h4>Eden Smith</h4>
+                    <label htmlFor="">Los Angeles, CA</label>
                   </div>
                 </div>
-                <button className="box">
-                  <IoSettingsOutline className="icon" />
-                  <h4>My Account</h4>
-                </button>
+                <Link to="/login">
+                  <button className="box">
+                    <IoSettingsOutline className="icon" />
+                    <h4>My Account</h4>
+                  </button>
+                </Link>
                 <button className="box">
                   <BsBagCheck className="icon" />
                   <h4>My Order</h4>
