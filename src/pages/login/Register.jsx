@@ -26,7 +26,7 @@ function Register() {
             <span>Confirm Password *</span>
             <input type="text" required />
             <button className="button">Register</button>
-            <Link to="/login">Signin</Link>
+            {/* <Link to="/login">Signin</Link> */}
           </form>
         </div>
       </section>
